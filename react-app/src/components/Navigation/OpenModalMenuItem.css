@@ -1,0 +1,15 @@
+.ServerButtonPlus {
+    color: #3b9758;
+}
+
+.OpenModalMenuItemButton{
+    background-color: #36393f;
+}
+
+.OpenModalMenuItemButton:hover{
+    background-color: #3b9758;
+}
+
+.OpenModalMenuItemButton:hover > .ServerButtonPlus {
+    color: white;
+}

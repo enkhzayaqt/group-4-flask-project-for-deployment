@@ -1,0 +1,25 @@
+/* .sidebarChannel_hash {
+    font-size: 15px;
+    padding-right: 4px;
+}
+*/
+
+.server-channel-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.server-channel-list .channel-name{
+    flex-grow: 1;
+}
+
+.server-channel-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.server-channel-header #direct-message-title{
+    flex-grow: 1;
+}

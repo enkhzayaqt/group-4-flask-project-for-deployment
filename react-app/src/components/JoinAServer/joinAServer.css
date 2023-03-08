@@ -1,0 +1,95 @@
+.joinServerContainer{
+    background-color: '#ffffff';
+    width:20em;
+    height: 15em;
+    display: grid;
+    justify-content: center;
+margin-left: 5em;
+
+}
+
+
+.joinAServerHeader{
+    display: grid;
+    font-size: 18px;
+    justify-content: center;
+    font-weight: bolder;
+
+}
+.joinAServerLinkExample{
+    font-size: 8px;
+    text-align: left;
+
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.joinAServerDescription{
+    font-size: 10px;
+    text-align: left;
+
+}
+
+
+.joinAServerInformation{
+    font-size: 12px;
+    margin-top: -1em;
+    text-align: center;
+}
+
+
+
+/*
+
+.joinServerErrorMessage{
+    color:red;
+    text-align: center;
+    margin-top: 0em;
+} */
+
+.joinAServerSubmitButton{
+    display: grid;
+    border: 0px;
+    font-size: 10px;
+    width:7em;
+    height:3em;
+    margin-left:24em;
+    margin-top: 2em;
+    color: white;
+    background-color:#5e67ed;
+    cursor: pointer;
+}
+.joinAServerSubmitButton:hover{
+background-color: #4248a6;
+transition-property: background-color;
+transition-duration: .5s;
+}
+
+
+.joinASeverSubmitButtonContainer{
+    display: grid;
+    background-color: #eeeff1;
+    margin-top: -11.3em;
+    height: 12em;
+}
+
+
+.joinAServerInviteLinkText{
+    font-size: 12px;
+}
+
+
+.astrik{
+    display: inline;
+    color:red;
+}
+.errors-actual {
+    color: red;
+    font-weight: 200;
+}
+
+/* .joinAServerDontHaveAInvite{
+    display: grid;
+    border:1px solid black;
+    grid-template-columns: 1fr 1fr 1fr;
+} */

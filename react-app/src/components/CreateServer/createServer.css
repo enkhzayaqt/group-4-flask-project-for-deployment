@@ -1,0 +1,72 @@
+.createServerContainer{
+    background-color: '#ffffff';
+    width:30em;
+    height: 15em;
+    display: grid;
+    justify-content: center;
+
+
+}
+
+.createServerHeader{
+    display: grid;
+font-size: 18px;
+justify-content: center;
+
+margin-top: 1em;
+
+}
+
+
+.createServerInformation{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10em;
+    margin-top: 1em;
+    display: grid;
+    text-align: center;
+    height: 5em;
+    width:30em;
+}
+
+
+
+.serverNameLabel{
+    display: grid;
+    font-weight: bolder;
+    padding: 6px;
+    margin-left: 14em;
+    font-size: 12px;
+    width:20em;
+}
+
+
+.createServerInput{
+    background-color: #e9eaed;
+}
+
+
+.createServerButtonContainer{
+    display: grid;
+   background-color: #e9eaed;
+    width: 35em;
+    height: 5em;
+    margin-left:1.5em;
+    margin-top:2.2em;
+}
+.createServerButton{
+    display: grid;
+    margin-left:33em;
+    margin-top:1.5em;
+    width:7em;
+    height: 3em;
+    background-color:#5e67ed;
+    color:white;
+    border: 0px;
+}
+
+
+.createServerButton:hover{
+    background-color:#4b52be;
+
+}
