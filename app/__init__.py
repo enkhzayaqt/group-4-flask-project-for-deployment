@@ -104,5 +104,8 @@ def react_root(path):
 def not_found(e):
     return app.send_static_file('index.html')
 
+# if __name__ == '__main__':
+#     socketio.run(app)
+
 if __name__ == '__main__':
-    socketio.run(app)
+    app.run()
